@@ -2,12 +2,12 @@ body {
   background-color: rgb(134, 255, 215);
 }
 header {
-  text-align: center;
+  text-align: center;       /*to make the title and the image centred*/
 }
 
 #center-div {
   background-color: rgb(192, 255, 234);
-  width: 1024px;
+  width: 1024px;                               /*to make the sides of the page have  different background color than the centre of the page*/
   margin: 0px auto;
   font-family: Arial, Helvetica, sans-serif;
 }
@@ -15,7 +15,7 @@ header {
   margin-top: -8px;
 }
 #header-title {
-  position: absolute;
+  position: absolute;                            /*to make the title appear on top of the image*/
   top: 25%;
   left: 40%;
   color: azure;
@@ -23,7 +23,7 @@ header {
 }
 
 a {
-  text-decoration: none;
+  text-decoration: none;                        /*to make the anchor tags not underlined and don't have the blue color*/
   color: black;
   text-align: center;
   font-size: 20px;
@@ -54,7 +54,7 @@ a {
   width: 255px;
   height: 255px;
   margin-left: 5px;
-  float: left;
+  float: left;                   /*to make the text wrapped around the image*/
   padding: 0 20px 20px 0;
 }
 
@@ -74,7 +74,7 @@ form {
 }
 
 .input-text {
-  width: 990px;
+  width: 990px;               /*to increase the width of the text box*/
 }
 .input-textarea {
   width: 990px;
@@ -85,6 +85,6 @@ form {
   margin-bottom: 10px;
   width: 60px;
   height: 35px;
-  background-color: transparent;
-  cursor: pointer;
+  background-color: transparent;          /*to make the button take the same color as the parent div*/
+  cursor: pointer;                        /*to make the mouse cursor take the shape of a pointer*/
 }
