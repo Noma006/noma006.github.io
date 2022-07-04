@@ -1,0 +1,90 @@
+body {
+  background-color: rgb(134, 255, 215);
+}
+header {
+  text-align: center;
+}
+
+#center-div {
+  background-color: rgb(192, 255, 234);
+  width: 1024px;
+  margin: 0px auto;
+  font-family: Arial, Helvetica, sans-serif;
+}
+#header-img {
+  margin-top: -8px;
+}
+#header-title {
+  position: absolute;
+  top: 25%;
+  left: 40%;
+  color: azure;
+  font-size: 50px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  text-align: center;
+  font-size: 20px;
+  margin: 0 130px;
+}
+
+#home-link {
+  padding-right: 160px;
+  border-right: solid black 1px;
+}
+
+#story-link {
+  margin-left: -5px;
+  padding-right: 150px;
+  border-right: solid black 1px;
+}
+
+#contact-link {
+  margin-left: -36px;
+}
+
+#article-title {
+  margin-top: 30px;
+  margin-left: 5px;
+}
+
+#article-img {
+  width: 255px;
+  height: 255px;
+  margin-left: 5px;
+  float: left;
+  padding: 0 20px 20px 0;
+}
+
+#facts-title {
+  margin-top: 30px;
+  margin-left: 5px;
+}
+
+form {
+  border: solid black 1px;
+  margin-left: 5px;
+}
+
+#form-comp {
+  margin-top: 15px;
+  margin-left: 15px;
+}
+
+.input-text {
+  width: 990px;
+}
+.input-textarea {
+  width: 990px;
+  height: 100px;
+}
+
+#input-submit {
+  margin-bottom: 10px;
+  width: 60px;
+  height: 35px;
+  background-color: transparent;
+  cursor: pointer;
+}
